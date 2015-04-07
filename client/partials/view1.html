@@ -1,0 +1,66 @@
+
+
+<div ng-controller='view1Controller'>
+	<div id='landing'>
+		<div class="box">
+			<form ng-submit='searchForm()'>
+	  			<div class="container-1">
+	      			<span class="icon"><i class="fa fa-search"></i></span>
+	      			<input type="text" ng-model='search.results' id="search" placeholder="search gifs..." required />
+	  			</div>
+	  		</form>
+		</div>
+
+
+		<!-- Button trigger modal -->
+		<div class='modal-div'>
+			<button type='button' class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal"><h5>about</h5></button>
+		</div>
+
+		<div class='powered-by'>
+			<a href="http://www.giphy.com"><img class='giphy-logo' src="./images/poweredBy.gif"></a>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">gifMo - because more gifs</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<h4>
+		      	gifMo is an gif search engine which creates awesome (and active) gif gallerys. No need to hoover over an image to make it active!
+		        </h4>
+		        <br>
+		      	<h4>
+		      	works best on projectors and big screen TVs.
+		        </h4>
+		        <br>
+		        <h4>some suggested searches:</h4>
+		        <ul>
+		        	<li>dancing cat</li>
+		        	<li>head nod</li>
+		        	<li>angry</li>
+		        	<li>kanye west</li>
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		      	<img class='twitter' src="./images/twitter_logo_blue.png">
+		      	<img class='facebook' src="./images/fb-f-logo.png">
+		      	<img class='git-hub' src="./images/gitHub-32px.png">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+
+	</div>
+</div>
+
+
+
+
