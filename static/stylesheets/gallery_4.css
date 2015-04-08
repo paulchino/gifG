@@ -1,0 +1,38 @@
+
+	.img-item {
+		width: 24.3%;
+		height: auto;
+		max-width: 100%;
+		float: left;
+		border-radius: 12px;
+	}
+
+	.giphy-logo {
+		width: 160px;
+		height: auto;
+	}
+
+	.waiting {
+		-webkit-animation: glow .5s infinite alternate;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.waiting_img {
+		width: 320px;
+		height: auto;
+		border-radius: 12px;
+	}
+
+	.no-gifs .middle {
+		font-size: 30px;
+	}
+
+	.error-cat {
+		border-radius: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 220px;
+		height: auto;
+	}
